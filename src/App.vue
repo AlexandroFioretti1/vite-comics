@@ -31,32 +31,35 @@
 <!-- main whit coming soon content -->
 <main>
   <!-- app main whit all content coming soon -->
-  <div class="app_main d-flex justify-content-between align-items-center">
+  <div class="container app_main d-flex justify-content-between align-items-center">
     <h1>More coming soon</h1>
   </div>
   <!-- #End app main whit all content coming soon -->
   <!-- under main whit all content -->
-  <div class=" blue_container d-flex justify-content-between align-items-center">
+  <div class="container blue_container d-flex justify-content-between align-items-center">
     <div>
-    <img src="./assets/img/buy-comics-digital-comics.png" alt="">
+    <img width="50" src="./assets/img/buy-comics-digital-comics.png" alt="">
       <a href="">DIGITAL COMICS</a>
     </div>
     <div>
-      <img src="./assets/img/buy-comics-merchandise.png" alt="">
+      <img width="50" src="./assets/img/buy-comics-merchandise.png" alt="">
       <a href="">DC MERCHANDISE</a>
     </div>
     <div>
-      <img src="./assets/img/buy-comics-subscriptions.png" alt="">
-      <a href="">COMIC SHOP LOCATOR</a>
-    </div>
-    <div>
-      <img src="./assets/img/buy-comics-shop-locator.png" alt="">
+      <img width="50" src="./assets/img/buy-comics-subscriptions.png" alt="">
       <a href="">SUBSCRIPTION</a>
     </div>
+
     <div>
-      <img src="./assets/img/buy-dc-power-visa.svg" alt="">
+      <img width="40" src="./assets/img/buy-comics-shop-locator.png" alt="">
+      <a href="">COMIC SHOP LOCATOR</a>
+    </div>
+
+    <div>
+      <img width="50" src="./assets/img/buy-dc-power-visa.svg" alt="">
       <a href="">DC POWER E VISA</a>
     </div>
+
   </div>
   <!-- #End under main whit all content -->
 </main>

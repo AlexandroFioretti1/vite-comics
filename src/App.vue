@@ -1,30 +1,57 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script >
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+<header>
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <img class="py-2" src="./assets/img/dc-logo.png" alt="ImgLogo">
+      </div>
+      <nav class="">
+        <a href="#">CHARACTERS</a>
+        <a class="c_blue" href="#">COMICS</a>
+        <a href="#">MOVIES</a>
+        <a href="#">TV</a>
+        <a href="#">GAMES</a>
+        <a href="#">COLLECTIBLES</a>
+        <a href="#">VIDEOS</a>
+        <a href="#">FANS</a>
+        <a href="#">NEWS</a>
+        <a href="#">SHOP</a>
+      </nav>
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+</header>
+
+<main>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+
+</footer>
+
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+<style >
+.header{
+  height: 300px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+a{
+  text-decoration: none;
+  color: black;
+  padding: 0rem 1rem;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.c_blue{
+  color: blue;
 }
+
 </style>

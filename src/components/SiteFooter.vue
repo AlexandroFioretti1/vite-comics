@@ -48,12 +48,7 @@
           </div>
         </div>
         <div>
-          <img
-            class="bg_logo_footer"
-            height="400"
-            src="../assets/img/dc-logo-bg.png"
-            alt="DC Logo BG"
-          />
+          <img class="bg_logo_footer" height="400" src="../assets/img/dc-logo-bg.png" alt="DC Logo BG"/>
         </div>
       </div>
     </section>

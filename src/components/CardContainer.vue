@@ -8,19 +8,24 @@ export default {
       listCards,
     };
   },
-  components:{
-    CardVue
-  }
+  components: {
+    CardVue,
+  },
 };
 </script>
 
 <template>
-
-  
-<CardVue v-for="card in listCards" :img="card.thumb" :title="card.series"> </CardVue>
-
-
+  <div class="d_flex">
+    <CardVue v-for="card in listCards" :img="card.thumb" :title="card.series">
+    </CardVue>
+  </div>
 </template>
 
 <style>
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 </style>

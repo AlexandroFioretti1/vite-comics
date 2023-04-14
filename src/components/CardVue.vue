@@ -1,20 +1,26 @@
 <script>
-    export default {
-        name: "CardVue",
-        props: {
-            img: String,
-            title: String,
-        }
-    }
+export default {
+  name: "CardVue",
+  props: {
+    img: String,
+    title: String,
+  },
+};
 </script>
 
 <template>
- <h1>{{ img }}</h1>
- <h1>{{ title }}</h1>
+  <div class="w_f">
+    <img class="img_fluid" :src="img" alt="img" />
+    <h4>{{ title }}</h4>
+  </div>
 </template>
 
-
-
 <style lang="scss" scoped>
-
+.img_fluid {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+.w_f {
+  width: calc(100% / 6);
+}
 </style>

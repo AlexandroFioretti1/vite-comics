@@ -1,5 +1,6 @@
 <script>
 import listCards from "../assets/data/dc-comics.json";
+import CardVue from "./CardVue.vue";
 export default {
   name: "CardContainer",
   data() {
@@ -7,11 +8,19 @@ export default {
       listCards,
     };
   },
+  components:{
+    CardVue
+  }
 };
 </script>
 
 <template>
-  <span>{{ listCards[0].thumb }}</span>
+
+  
+<CardVue v-for="card in listCards" :img="card.thumb" :title="card.series"> </CardVue>
+
+
 </template>
 
-<style></style>
+<style>
+</style>

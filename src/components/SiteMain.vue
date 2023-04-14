@@ -57,7 +57,9 @@
 </template>
 
 <script>
+import CardContainer from "./CardContainer.vue";
 export default {
+  components:{CardContainer},
   name: "SiteMain",
 };
 </script>

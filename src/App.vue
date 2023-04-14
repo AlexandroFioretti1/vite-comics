@@ -1,7 +1,6 @@
 <!-- script js -->
 <script>
 import SiteHeader from "./components/SiteHeader.vue";
-import CardContainer from "./components/CardContainer.vue";
 import SiteMain from "./components/SiteMain.vue";
 import SiteFooter from "./components/SiteFooter.vue";
 export default {
@@ -10,7 +9,6 @@ export default {
   },
   components: {
     SiteHeader,
-    CardContainer,
     SiteMain,
     SiteFooter,
   },
@@ -20,7 +18,9 @@ export default {
 <template>
   <SiteHeader></SiteHeader>
 
-  <SiteMain></SiteMain>
+  <SiteMain>
+    
+  </SiteMain>
 
   <SiteFooter></SiteFooter>
 </template>
